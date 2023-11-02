@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+	padding: 0 20px;
+	background-color: #444;
+	color: white;
+}
+
+nav button {
+	height: 40px;
+	width: 120px;
+	border-radius: 10px;
+	border: none;
+}
+nav button:hover{
+	color: rgb(117, 117, 228);
+        font-size: 1.01rem;
+}
+
+.notes-container {
+	margin: 50px;
+	display: flex;
+	gap: 20px;
+}
+
+.note {
+	background-color: #f0f0f0;
+	width: 250px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.note h2 {
+	padding: 10px 0;
+	border-bottom: 1px solid #333;
+	height: 50px;
+	overflow: auto !important;
+	overflow-x: hidden;
+	text-align: center;
+}
+.note p {
+	padding: 5px;
+	height: 200px;
+	overflow: auto;
+	word-wrap: break-word;
+}
+
+.note span {
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #333;
+	border-radius: 0 0 10px 10px;
+}
+
+.note span button {
+	width: 100px;
+	height: 80%;
+}
+
+.model {
+	height: 300px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: #333;
+	padding: 5px 22px;
+}
+
+.model input {
+	height: 40px;
+	padding: 10px;
+	outline: none;
+}
+
+.model textarea {
+	resize: none;
+	height: 170px;
+	padding: 10px;
+	font-size: 17px;
+	outline: none;
+}
+
+.model button {
+	height: 40px;
+}
+
+.hide {
+	display: none;
+}
+
+
